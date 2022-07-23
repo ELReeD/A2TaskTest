@@ -44,7 +44,7 @@ namespace A2Parser
 
             //Вычесляю количество страниц , округляю в большую сторону 
             var pageCount = Math.Ceiling((double)res / SIZE);
-            Console.WriteLine($"Количество Запивсей :{res}");
+            Console.WriteLine($"Количество Записей :{res}");
             Console.WriteLine($"Количество Страниц : {pageCount} ");
 
             int currentPage = 0;
